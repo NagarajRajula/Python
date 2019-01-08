@@ -1,0 +1,12 @@
+m=[[1,2,3],[4,0,6],[7,8,9]]
+
+for i in range(len(m)):
+    for j in range(len(m)):
+        if m[i][j]==0:
+            for k in range(len(m)):
+                m[i][k]=0
+
+print(m)                
+               
+               
+
